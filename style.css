@@ -1,18 +1,52 @@
 *{
-    border: 2px solid red;
     font-family: 'Courier New', Courier, monospace;
-    
+    font-size: 18px;
+    color: #D7713B;
 }
+
+body{
+    background-color: #FFE9CA;
+}
+
 a{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
+    text-decoration: none;
 }
-.main{
+a.homepage{
+    display: block;
+    text-align: right;
+    color: #562151;
+    margin: 0;
+    margin-right: 5px;
+    width: auto;
+}
+.main,.title{
+    color: #562151;
     text-align: center;
     font-size: 50px;
     margin: 50px;
+}
+.main{
+    margin-top: 140px;
+}
+.title.description,
+.title.ingredients,
+.title.steps{
+    text-align: center;
+    font-size: 34px;
+    margin: 8;
+}
+.title.sauce{
+    font-size: 18px;
+    margin-left: auto;  
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 33%;
+    text-align: left;
 }
 p,li{
     margin-left: auto;
@@ -22,9 +56,10 @@ p,li{
 li{
     margin-bottom: 8px;
 }
-.mochi-img{
+img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+    box-shadow: 0 4px 8px 0 #FB8987, 0 6px 20px 0 #FB8987;
   }
