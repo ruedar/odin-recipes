@@ -1,14 +1,30 @@
-body{
+*{
+    border: 2px solid red;
     font-family: 'Courier New', Courier, monospace;
- 
+    
+}
+a{
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: fit-content;
 }
-.description {
-    color: red;
-}
-h1{
+.main{
     text-align: center;
     font-size: 50px;
+    margin: 50px;
 }
+p,li{
+    margin-left: auto;
+    margin-right: auto;
+    width: 38%;
+}
+li{
+    margin-bottom: 8px;
+}
+.mochi-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
